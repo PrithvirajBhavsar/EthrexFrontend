@@ -1,0 +1,17 @@
+.allInputs{
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.allInputs label{
+    color: white;
+}
+
+.allInputs input{
+    padding: 0.5rem;
+    outline: none;
+    font-size: 1.1rem;
+    border-radius: 0.2rem;
+    width: 100%;
+    margin-top: 0.5rem;
+}

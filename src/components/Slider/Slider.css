@@ -1,0 +1,22 @@
+.slider{
+    padding: 1rem 0;
+    width: 95%;
+    margin: auto;
+}
+
+.mainSlider{
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    align-items: center;
+}
+
+.mainSlider::-webkit-scrollbar{
+    display: none;
+}
+
+
+@media (max-width:700px){
+    .left,.right{
+        display: none;
+    }
+}

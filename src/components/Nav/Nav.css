@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-list{
+    display:flex
+}
+
+#nav-list li{
+    cursor: pointer;
+    margin: 0 1rem;
+    color: white;
+}
+
+@media (max-width:650px){
+    #nav-list{
+        display: none;
+    }
+}
